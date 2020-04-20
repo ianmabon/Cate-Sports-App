@@ -10,7 +10,23 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            VStack {
+        Text("Cate Sports App")
+            .padding(.all)
+            .font(.system(size: 30))
+            .colorInvert()
+            }
+            Spacer()
+
+                Text("place")
+
+        }
+       .background(Image("damn").resizable()
+              .aspectRatio(contentMode: .fill)
+              .edgesIgnoringSafeArea(.all)
+        )
+
     }
 }
 
