@@ -17,9 +17,13 @@ struct ContentView: View {
             .font(.system(size: 30))
             .colorInvert()
             }
+    Spacer()
+            Rectangle().frame(width: 300, height: 200, alignment: .center).colorInvert()
             Spacer()
-
-                Text("place")
+            Rectangle().frame(width: 300, height: 200, alignment: .center).colorInvert()
+            Spacer()
+                Text("placeholder")
+            Spacer()
 
         }
        .background(Image("damn").resizable()
