@@ -65,7 +65,7 @@ struct ContentView: View {
                 }
                     }
                     Button(action: {
-                        //notes for specific sport
+                        
                     }) {
                        Image(systemName: "magnifyingglass.circle.fill")
                        .resizable()
